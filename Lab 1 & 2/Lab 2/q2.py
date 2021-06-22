@@ -35,6 +35,25 @@ else:
       
     sumMatrix = addMatrix(dict1,dict2,m1,n1)
     print("\n")
+    print("Matrix 1")
+    for i in range(m1):
+        for j in range(n1):
+            if(j==n1-1):
+                print(dict1[i][j],end="\n")
+            else:
+                print(dict1[i][j], end=" ")
+    print("\n")
+    print("Matrix 2")
+    for i in range(m2):
+        for j in range(n2):
+            if(j==n2-1):
+                print(dict2[i][j],end="\n")
+            else:
+                print(dict2[i][j], end=" ")
+   
+   
+    print("\n")
+    print("Resultant Matrix")
     for i in range(m1):
         for j in range(n1):
             if(j==n1-1):

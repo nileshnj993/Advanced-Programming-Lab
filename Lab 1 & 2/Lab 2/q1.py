@@ -13,4 +13,5 @@ def countWords(sentence):
 print('OUTPUT')
 print('------')
 print('Nilesh Jain - 180953226')
-print("The total number of words are:",countWords("Hello there, this is Nilesh. Hello World!"))
+sentence = input('Enter a sentence:')
+print("The total number of words are: ",countWords(sentence))
